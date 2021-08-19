@@ -5,10 +5,31 @@
 }
 
 
+body {
+    background-color: #222629
+}
+
+.middle_content {
+    text-align: center;
+}
+
+#profile_avatar {
+    border-radius: 50%
+
+}
+
+h1 {
+    color: #86c232;
+    font-family: "Barlow Condensed" serif;
+    font-size: 46px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+
+}
 
 
 .main_list {
-    background-color: pink;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,16 +39,25 @@
 
 .main_list li {
     display: inline-block;
-    padding: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
 }
 .main_list li a {
-    color: black;
+    color: #e6e4df;
     text-decoration: none;
     font-size: 24px;
+}
+
+.main_list li a:hover {
+    background-color: pink;
 }
 
 .main_line {
     border: none;
     height: 2px;
-    background-color: black;
+    background-color: #e6e4df;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
 }
