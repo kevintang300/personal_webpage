@@ -9,6 +9,22 @@ body {
     background-color: #FAFAFA
 }
 
+#lin_icon {
+    text-decoration: none;
+    color: #0077b5;
+    padding-left: 425px;
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+#git_icon {
+    text-decoration: none;
+    color: #333;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 48px;
+}
+
 
 .top_content {
     padding-top: 100px;
@@ -22,20 +38,21 @@ body {
 
 .left_content {
     margin-left: 150px;
-    padding-top: 55px;
+    padding-top: 100px;
 }
 
 .left_content img {
-    border-radius: 100%;
-    width: 525px;
-    height: 525px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
     float: left;
 
 }
 
 .right_content {
+    color: black;
     display: block;
-    padding-top: 55px;
+    padding-top: 10px;
     padding-left: 760px;
 }
 
@@ -47,13 +64,12 @@ body {
 }
 
 .right_content p {
-    padding-top: 25px;
+    padding-top: 35px;
     width: 80%;
     font-family: 'Playfair Display',serif;
     font-size: 1.6em;
     line-height: 2em;
-    letter-spacing: 2px;
-    font-stretch: semi-expanded;
+    letter-spacing: 1.25px;
 }
 
 
@@ -70,24 +86,28 @@ body {
     padding-bottom: 20px;
 }
 .main_list li a {
-    color: #6F686D;
+    color: black;
+    letter-spacing: 1.25px;
+    font-family: 'Playfair Display',serif;
     text-decoration: none;
     font-size: 24px;
 }
 
 .main_list li a:hover {
-    background-color: pink;
+    background-color: #8AA29E;
 }
 
 .main_line {
     border: none;
+    margin: auto;
+    width: 70%;
     height: 2.25px;
     background-color: #6F686D;
 }
 
 
 .bottom_content {
-    padding-bottom: 125px;
+    padding-bottom: 100px;
     background-color: #DB5461;
     position: fixed;
     width: 100%;
