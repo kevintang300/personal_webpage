@@ -12,16 +12,16 @@ body {
 #lin_icon {
     text-decoration: none;
     color: #0077b5;
-    padding-left: 425px;
-    padding-top: 50px;
+    margin-left: 425px;
+    margin-top: 50px;
     font-size: 48px;
 }
 
 #git_icon {
     text-decoration: none;
     color: #333;
-    padding-left: 20px;
-    padding-top: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
     font-size: 48px;
 }
 
@@ -36,27 +36,24 @@ body {
     text-align: center;
 }
 
-.left_content {
-    margin-left: 150px;
-    padding-top: 100px;
-}
+
 
 .left_content img {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    padding-top: 45px;
+    padding-left: 265px;
+    height: 650px;
+    width: auto;
     float: left;
-
 }
 
 .right_content {
     color: black;
     display: block;
-    padding-top: 10px;
     padding-left: 760px;
 }
 
 .right_content h1 {
+    padding-top: 100px;
     font-family: 'Playfair Display',serif;
     font-weight: normal;
     font-size: 5.8em;
@@ -64,6 +61,7 @@ body {
 }
 
 .right_content p {
+    display: block;
     padding-top: 35px;
     width: 80%;
     font-family: 'Playfair Display',serif;
@@ -116,3 +114,52 @@ body {
     text-align: center;
 
 }
+
+
+.project_list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.project_list p {
+    padding-top: 30px;
+}
+
+.project_list p a {
+    text-decoration: none;
+    font-size: 36px;
+    color:#333;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.75px;
+}
+
+.the_notes {
+
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+
+.the_notes h2 {
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.50px;
+}
+
+.the_notes p {
+    padding-bottom: 15px;
+}
+
+.the_notes p a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.50px;
+}
+
+.the_notes p a:hover {
+    background-color: #8AA29E;
+}
+
