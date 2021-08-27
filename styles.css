@@ -5,29 +5,177 @@
 }
 
 
+body {
+    background-color: #FAFAFA
+}
+
+#lin_icon {
+    text-decoration: none;
+    color: #0077b5;
+    margin-left: 425px;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+#git_icon {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+
+.top_content {
+    padding-top: 100px;
+    background-color: #DB5461;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+
+
+.left_content img {
+    padding-top: 45px;
+    padding-left: 265px;
+    height: 650px;
+    width: auto;
+    float: left;
+}
+
+.right_content {
+    color: black;
+    display: block;
+    padding-left: 760px;
+}
+
+.right_content h1 {
+    padding-top: 100px;
+    font-family: 'Playfair Display',serif;
+    font-weight: normal;
+    font-size: 5.8em;
+    letter-spacing: 2px;
+}
+
+.right_content p {
+    display: block;
+    padding-top: 35px;
+    width: 80%;
+    font-family: 'Playfair Display',serif;
+    font-size: 1.6em;
+    line-height: 2em;
+    letter-spacing: 1.25px;
+}
 
 
 .main_list {
-    background-color: pink;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 24px;
+    margin-top: 160px;
     text-align: center;
 }
 
 .main_list li {
     display: inline-block;
-    padding: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
 }
 .main_list li a {
     color: black;
+    letter-spacing: 1.25px;
+    font-family: 'Playfair Display',serif;
     text-decoration: none;
     font-size: 24px;
 }
 
+.main_list li a:hover {
+    background-color: #8AA29E;
+}
+
 .main_line {
     border: none;
-    height: 2px;
-    background-color: black;
+    margin: auto;
+    width: 70%;
+    height: 2.25px;
+    background-color: #6F686D;
+}
+
+
+.bottom_content {
+    padding-bottom: 100px;
+    background-color: #DB5461;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+
+.project_list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.project_list p {
+    padding-top: 30px;
+}
+
+.project_list p a {
+    text-decoration: none;
+    font-size: 36px;
+    color:#333;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.75px;
+}
+
+.the_notes {
+
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+
+.the_notes h2 {
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.50px;
+}
+
+.the_notes p {
+    padding-bottom: 15px;
+}
+
+.the_notes p a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1.50px;
+}
+
+.the_notes p a:hover {
+    background-color: #8AA29E;
+}
+
+
+.contact_icons {
+    margin-top: 300px;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;   
+}
+
+
+.contact_icons p {
+    font-family: "serif";
+    font-size: 36px;
+    letter-spacing: 2px;
+
 }
